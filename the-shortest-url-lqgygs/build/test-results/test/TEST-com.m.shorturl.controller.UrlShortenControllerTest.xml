@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.m.shorturl.controller.UrlShortenControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-03-08T21:16:45" hostname="sherubhai-Latitude-5590" time="0.239">
+  <properties/>
+  <testcase name="createShort3MURL()" classname="com.m.shorturl.controller.UrlShortenControllerTest" time="0.186"/>
+  <testcase name="getShort3MURLNoContent()" classname="com.m.shorturl.controller.UrlShortenControllerTest" time="0.012"/>
+  <testcase name="getShort3MURLNotFound()" classname="com.m.shorturl.controller.UrlShortenControllerTest" time="0.014"/>
+  <testcase name="getShort3MURLBadInput()" classname="com.m.shorturl.controller.UrlShortenControllerTest" time="0.01"/>
+  <system-out><![CDATA[2024-03-08T16:16:44.671-05:00  INFO 135688 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.m.shorturl.controller.UrlShortenControllerTest]: UrlShortenControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-08T16:16:44.692-05:00  INFO 135688 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.m.shorturl.TheShortestUrlLqgygsApplication for test class com.m.shorturl.controller.UrlShortenControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-08T16:16:45.029-05:00  INFO 135688 --- [    Test worker] c.m.s.c.UrlShortenControllerTest         : Starting UrlShortenControllerTest using Java 17.0.10 with PID 135688 (started by sherubhai in /home/sherubhai/mywork/3M/the-shortest-url-lqgygs)
+2024-03-08T16:16:45.029-05:00  INFO 135688 --- [    Test worker] c.m.s.c.UrlShortenControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2024-03-08T16:16:45.749-05:00  INFO 135688 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-08T16:16:45.749-05:00  INFO 135688 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-08T16:16:45.752-05:00  INFO 135688 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-03-08T16:16:45.766-05:00  INFO 135688 --- [    Test worker] c.m.s.c.UrlShortenControllerTest         : Started UrlShortenControllerTest in 0.815 seconds (process running for 3.8)
+2024-03-08T16:16:45.992-05:00  WARN 135688 --- [    Test worker] o.s.web.servlet.PageNotFound             : No mapping for GET /api/v1/decodee
+2024-03-08T16:16:45.994-05:00  WARN 135688 --- [    Test worker] o.s.web.servlet.PageNotFound             : No endpoint GET /api/v1/decodee.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

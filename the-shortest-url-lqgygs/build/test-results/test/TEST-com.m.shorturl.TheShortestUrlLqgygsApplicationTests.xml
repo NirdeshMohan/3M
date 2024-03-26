@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.m.shorturl.TheShortestUrlLqgygsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-08T21:16:44" hostname="sherubhai-Latitude-5590" time="0.596">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.m.shorturl.TheShortestUrlLqgygsApplicationTests" time="0.596"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+16:16:42.684 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.m.shorturl.TheShortestUrlLqgygsApplicationTests]: TheShortestUrlLqgygsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:16:42.763 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.m.shorturl.TheShortestUrlLqgygsApplication for test class com.m.shorturl.TheShortestUrlLqgygsApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-08T16:16:43.089-05:00  INFO 135688 --- [    Test worker] m.s.TheShortestUrlLqgygsApplicationTests : Starting TheShortestUrlLqgygsApplicationTests using Java 17.0.10 with PID 135688 (started by sherubhai in /home/sherubhai/mywork/3M/the-shortest-url-lqgygs)
+2024-03-08T16:16:43.090-05:00  INFO 135688 --- [    Test worker] m.s.TheShortestUrlLqgygsApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-03-08T16:16:44.053-05:00  INFO 135688 --- [    Test worker] m.s.TheShortestUrlLqgygsApplicationTests : Started TheShortestUrlLqgygsApplicationTests in 1.178 seconds (process running for 2.088)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
